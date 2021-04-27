@@ -1,0 +1,16 @@
+baseURL = "https://k-explorer.github.io/blog/"
+languageCode = "en-us"
+title = "The DS Dev"
+theme = "hyde"
+[params]
+  description = "Data Science can change the world"
+[markup.highlight]
+      codeFences = true
+      guessSyntax = true
+      hl_Lines = ""
+      lineNoStart = 1
+      lineNos = true
+      lineNumbersInTable = true
+      tabWidth = 4
+      noClasses = false
+      style = 'colorful'
