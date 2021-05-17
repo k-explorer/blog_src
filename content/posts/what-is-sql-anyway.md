@@ -45,7 +45,7 @@ Multiple libraries used to run SQL exist. The following list will briefly acquai
 
 An **O**pen **D**atabase **C**onnectivity, or ODBC, is an interface between the SQL library and the application. For example, LibreOffice Base, a popular database editor, uses ODBC to establish a connection between it and any of the SQL libraries it supports. JDBC (**J**ava **D**atabase **C**onnectivity) is also used for the same purpose, but only in applications made with Java.
 
-## Syntax
+## Syntax {#syntax}
 
 Finally we arrive at SQL syntax. SQL's classic syntax is unique. It uses English words (see table below) to tell the library or ODBC connected application what to do.
 
