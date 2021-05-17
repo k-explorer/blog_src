@@ -36,7 +36,7 @@ Apache Hive uses Hadoop MapReduce to process data, while Spark uses Resilient Di
 
 Spark does not provide a distributed file storage system, so it is mainly used for computation, on top of a Hadoop database, though Hadoop is not a Spark prerequisite (see [Dependencies][4]). Spark can connect to [SQL libraries][5], however, and these can be used to store data. Hadoop&#8217;s only option is to use HDFS (**H**adoop **D**istributed **F**ile **S**torage).
 
-## Conclusion
+## Conclusion {#conclusion}
 
 Overall, the choice of using Spark or Hive depends on what _you_ want to do with your data. It&#8217;s a matter of opinion, and neither is the better choice.
 

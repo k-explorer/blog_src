@@ -1,7 +1,7 @@
 ---
 title: "Linux Takes the Cake"
 date: 2021-05-03T11:48:09-07:00
-draft: false
+draft: true
 ---
 
 Welcome to Linux! This article covers all things concerned with one of the world's only free and open source operating systems. 
@@ -29,4 +29,6 @@ Fedora Linux, named after a type of hat, comes in both a desktop and server vers
 It too, uses the GNOME DE. Fedora is less popular than Ubuntu or Linux Mint, but it is still a viable choice if you're looking for a reliable distribution.
 **NOTE**: A server operating system is one that specifically focuses on client server requests, and can act as a web server, mail server, file server, database server, etc.
 
-Although the above are the main Linux distributions, main others exist and are used, such as Nitrux, and Pop!_OS.
+Although the above are the main Linux distributions, main others exist and are used, such as Debian (it's what Ubuntu was based on), Nitrux, and Pop!_OS.
+
+## Software {#software}
