@@ -17,9 +17,9 @@ The nice thing about open source software is that anybody can fork the project o
 
 1. [Linux Mint](https://www.linux-mint.com)
 {{< figure src="/blog/images/linux/linux-mint.png">}}
-Linux Mint is the most popular Linux distro. It comes with the option to use one of three desktop environments (DEs): Cinnamon, the most popular (shown above), MATE, and XFCE. A few packages have to be installed to use the slightly more heavyweight GNOME DE, which is used by most other distros. \
+Linux Mint is the most popular Linux distro. It comes with the option to use one of three desktop environments (DEs): Cinnamon, the most popular (shown above), MATE, and XFCE. A few packages have to be installed to use the slightly more heavyweight GNOME DE, which is used by most other distros. 
 
-**NOTE**: A desktop environment is similar to a theme, in that it decides how the OS's screen is organized.
+**NOTE**: A desktop environment is similar to a theme, in that it decides how the OS's screen is organized. Some DEs come with certain default applications as well, so a DE has more control over an OS than a theme.
 
 2. [Ubuntu](https://www.ubuntu.com)
 {{< figure src="/blog/images/linux/ubuntu.png">}}
