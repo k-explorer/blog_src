@@ -2,6 +2,8 @@
 title: "What Is SQL Anyway?"
 date: 2021-04-26T08:48:10-07:00
 draft: false
+tags:
+  - SQL
 ---
 
 Structured Query Language, or SQL, is a language used for the manipulation and querying of databases. Let’s have an example:
@@ -24,22 +26,22 @@ Why doesn’t SQL run in a browser? Here is a revelation. SQL _does_ run in a br
 
 ## SQL Libraries {#sql-libraries}
 
-Multiple libraries used to run SQL exist. The following list will briefly acquaint you with the most commonly used ones. 
+Multiple libraries used to run SQL exist. The following list will briefly acquaint you with the most commonly used ones.
 
   1. SQLite
       * SQLite is my preferred library, as it it small, fast, and does _not_ require a web server or complicated configuration. It is used to store information such as user profiles in many apps, and is preinstalled on Mac, Windows, and Linux machines. It is useful in production and in development.
   2. MySQL
-      * Uses a web server. MySQL started out as a community project, but was acquired by Oracle Corporation. It has stayed open-source, and is a popular option for production. 
+      * Uses a web server. MySQL started out as a community project, but was acquired by Oracle Corporation. It has stayed open-source, and is a popular option for production.
   3. PostgreSQL, or Postgres
       * The name comes from the fact that Postgres is the successor to the Ingres database, which was developed at the University of California, Berkeley. Postgres is very similar to MySQL and is equally popular for production.
   4. MariaDB
-      * MariaDB is extremely similar to MySQL. It was forked from the original project when MySQL was acquired by Oracle. MySQL's creator, Michael Widenius, thought that Oracle's owning MySQL would be problematic, as Oracle already had their own library, Oracle DB, and might not give MySQL any attention. MariaDB and MySQL are few differences, except that 
+      * MariaDB is extremely similar to MySQL. It was forked from the original project when MySQL was acquired by Oracle. MySQL's creator, Michael Widenius, thought that Oracle's owning MySQL would be problematic, as Oracle already had their own library, Oracle DB, and might not give MySQL any attention. MariaDB and MySQL are few differences, except that
           * MariaDB has stayed a community project
           * MariaDB is _slightly_ less used.
           * The list of languages that can be used to connect to either of the databases is different, though not significantly.
       * The two databases are so similar that the MariaDB [ODBC][5] can be used to connect to MySQL!
   5. Apache Spark
-      * Spark, built by the Apache Software Foundation, is not exactly an SQL library, but a Java based program for data manipulation similar to SQL. However, it does include an SQL component, Spark SQL, which makes it worth including on this list. 
+      * Spark, built by the Apache Software Foundation, is not exactly an SQL library, but a Java based program for data manipulation similar to SQL. However, it does include an SQL component, Spark SQL, which makes it worth including on this list.
 
 ## ODBC {#odbc}
 

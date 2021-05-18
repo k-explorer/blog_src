@@ -3,14 +3,14 @@ title: "Getting Started with Homebrew"
 date: 2021-04-26T16:08:06-07:00
 draft: false
 tags:
- - software
+ - Software
 ---
 
-[Homebrew][1] is a popular package manager which has the ability to install almost any application or software in existence. To start using Homebrew, you&'ll have to open the **command line**, which is the "Terminal" app or program on Mac and Linux and "command.exe" on Windows. 
+[Homebrew][1] is a popular package manager which has the ability to install almost any application or software in existence. To start using Homebrew, you&'ll have to open the **command line**, which is the "Terminal" app or program on Mac and Linux and "command.exe" on Windows.
 
 ![ZSH on a Mac](/blog/images/shell.png)
 
-Once in the application or program shown above, type the following command, and hit Return: 
+Once in the application or program shown above, type the following command, and hit Return:
 
 
 {{< highlight bash >}}

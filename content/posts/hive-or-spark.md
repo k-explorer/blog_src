@@ -2,16 +2,18 @@
 title: "Hive or Spark"
 date: 2021-04-26T16:08:06-07:00
 draft: false
+tags:
+  - Software
 ---
 
 
-![Spark](/blog/images/spark.png) 
+![Spark](/blog/images/spark.png)
 {{< figure src="/blog/images/hive.png" height="200" >}}
-Lots of data scientists wonder whether to use Apache Hive or Apache Spark. This article aims to condense the problem into a short comparison. 
+Lots of data scientists wonder whether to use Apache Hive or Apache Spark. This article aims to condense the problem into a short comparison.
 
 ## Dependencies {#dependencies}
 
-Apache Hive runs on Apache Hadoop, a complex data warehouse built in Java. To use Hive, Hadoop must be installed and configured as well. Spark, on the other hand, originally required Hadoop but does not currently. Hive is it&#8217;s own Java library, but Spark has a different distribution for each of it&#8217;s three supported languages: 
+Apache Hive runs on Apache Hadoop, a complex data warehouse built in Java. To use Hive, Hadoop must be installed and configured as well. Spark, on the other hand, originally required Hadoop but does not currently. Hive is it&#8217;s own Java library, but Spark has a different distribution for each of it&#8217;s three supported languages:
 
   1. Spark: Scala
       * This is the most used Spark distribution
@@ -26,11 +28,11 @@ Apache provides zips and .tar.gz files for both software. In addition, they can 
 
 ## Performance
 
-Hadoop is great for **batch processing**, but is extremely slow with **iterative** or **stream processing** (see [Data Processing][3]). When researchers at University of California, Berkeley, who were using Hive, discovered this, they built Spark to fix the problem. They discovered that for iterative processing, Spark could be over **_100 times faster_** than Hive! 
+Hadoop is great for **batch processing**, but is extremely slow with **iterative** or **stream processing** (see [Data Processing][3]). When researchers at University of California, Berkeley, who were using Hive, discovered this, they built Spark to fix the problem. They discovered that for iterative processing, Spark could be over **_100 times faster_** than Hive!
 
 ## Data Processing {#data-processing}
 
-Apache Hive uses Hadoop MapReduce to process data, while Spark uses Resilient Distributed Databases (RDDs). While Hive uses batch processing, Spark uses stream processing. When batch processing, data is processed once all the data has been collected. Obviously, this is not a good option for real-time data processing. Stream processing processes small packets of data as they come in. 
+Apache Hive uses Hadoop MapReduce to process data, while Spark uses Resilient Distributed Databases (RDDs). While Hive uses batch processing, Spark uses stream processing. When batch processing, data is processed once all the data has been collected. Obviously, this is not a good option for real-time data processing. Stream processing processes small packets of data as they come in.
 
 ## Data Storage {#data-storage}
 
