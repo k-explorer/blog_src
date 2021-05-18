@@ -6,7 +6,6 @@ theme = "hyde"
   description = "Data Science can change the world"
 [Menus]
   main = [
-      {Name = "Home", URL = "/blog"},
       {Name = "Tags", URL = "/tags"},
       {Name = "GitHub", URL = "https://github.com/k-explorer"}
   ]
