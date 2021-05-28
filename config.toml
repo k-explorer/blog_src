@@ -8,7 +8,7 @@ theme = "hyde"
   main = [
       {Name = "Tags", URL = "/tags"},
       {Name = "GitHub", URL = "https://github.com/k-explorer"},
-      {Name = "RSS Feed", URL = "k-explorer.github.io/blog/index.xml"}
+      {Name = "RSS Feed", URL = "/blog/index.xml"}
   ]
 [markup.highlight]
       codeFences = true
